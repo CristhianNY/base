@@ -20,7 +20,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.redfin.redfin.foodtrucks.presentation.list.FoodTrucksListScreen
+import com.redfin.redfin.foodtrucks.presentation.list.mvi_example.FoodTrucksMVIListScreen
 import com.redfin.redfin.foodtrucks.presentation.map.FoodTrucksMapScreen
 import com.redfin.redfin.ui.theme.RedFinTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
 fun NavigationHost(navController: androidx.navigation.NavHostController, modifier: Modifier = Modifier) {
     NavHost(navController = navController, startDestination = "list", modifier = modifier) {
         composable("list") {
-            FoodTrucksListScreen()
+            FoodTrucksMVIListScreen()
         }
         composable("map") {
             FoodTrucksMapScreen()
