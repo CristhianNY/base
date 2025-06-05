@@ -2,5 +2,7 @@
     <string name="app_name">RedFin</string>
 
     <string name="open_hours">Open: %1$s - %2$s</string>
+    <string name="coordinates">Coordinates: %1$s, %2$s</string>
+    <string name="address_label">Address: %1$s</string>
     <string name="error_loading_food_trucks">Error loading food trucks</string>
 </resources>
