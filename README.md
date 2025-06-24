@@ -1,2 +1,2 @@
-# RedFin-android
-Android codebase for the RedFin app.
+#Demo 
+Android codebase for the Demo app.
